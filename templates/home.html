@@ -1,0 +1,184 @@
+
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        {% load static %}
+		<title>Afrocoast233</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'css/noscript.css' %}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Afrocost233</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="{% url 'navigator' %}">Home</a></li>
+								<li><a href="generic.html">Services</a></li>
+								<li><a href="{% url 'navigator' %}">About Us</a></li>
+
+							</ul>
+							<a href="{% url 'navigator' %}" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-gem"></span></div>
+							<h2>Welcome To AfroCoast</h2>
+							<p>Providing opportunities to Diasporas, Europeans, Asians and the world at large to visit tour and invest in Africa </p>
+						</div>
+                        <img src="{% static 'images/home.jpg' %}" alt="" />
+					</section>
+
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="{% static 'images/pic1.jpg' %}" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Transacting with AfroCoast</h2>
+										<p>With Afrocoast, keeping a good status is at centre of our transactions, this is why we give clients a clear view of everything done before, during and after every tour. Because it is very difficult to regain a lost reputation, we do our talk with precision while obeying ethical standards..</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="{% static 'images/pic2.jpg' %}" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Planning Your Trip</h2>
+										<p>We practice a client-agency open discourse. Clients tell us what they want, and we act accordingly. This allows us to deliver beyond our clients’ expectations. Afroacoast233 makes sure information is well understood by clients hence making sure everyone is on the same page..</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="{% static 'images/pic3.jpg' %}" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Experience the real Africa with AfroCoast</h2>
+										<p>Afroacoast233 travel agency makes the most out of tourism. We give people of different races an unforgettable experience of Africa, especially those living in the diaspora as well as Europeans and Asians..</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Our Services </h2>
+									<p>We partner with hotels, transport and visa procurement agencies to and from the destination country in other to simplify the complexities of tour travel. .</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="{% static 'images/pic4.jpg' %}" alt="" /></a>
+											<h3 class="major">Many Destinations across Africa</h3>
+											<p>Get to explore the full beauty of Africa with us.You get to choose your destination and we handle the rest.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="{% static 'images/pic5.jpg' %}" alt="" /></a>
+											<h3 class="major">Hotels and Accommodation </h3>
+											<p>We have various partners in the hospitality industry that deliver world class accommodation for you during your tour. .</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="{% static 'images/pic6.jpg' %}" alt="" /></a>
+											<h3 class="major">COMPLETE TOUR MANAGEMENT</h3>
+											<p>about booking your transportation, hotel, meals, attractions, and everything else. We will work with you to make a custom-tailored tour and handle all of the headache involved.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="{% static 'images/pic7.jpg' %}" alt="" /></a>
+											<h3 class="major">Your Visa and Transport</h3>
+											<p>We handle transport and visa procurement agencies to and from the destination country in other to simplify the complexities of tour travel.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+									</section>
+									<ul class="actions">
+										<li><a href="#" class="button">Browse All</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>For any inquiries, questions or commendations, please call: 123-456-7890 or fill out the following form.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									AfroCoast233<br />
+									Accra Ghana  #2894<br />
+									Liberia Avenue
+								</li>
+								<li class="icon solid fa-phone">123-456-7890</li>
+								<li class="icon solid fa-envelope"><a href="#">information@AfroCoast.com.tld</a></li>
+								<li class="icon brands fa-twitter"><a href="#">twitter.com/AfroCoast-tld</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/AfroCoast-tld</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/AfroCoast-tld</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; AfroCoast233. All rights reserved.</li></a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
