@@ -5,4 +5,4 @@ def homepage(request):
 
 
 def navigator(request):
-    return render(request,'generic.html')
+    return render(request, 'Contact.html')
